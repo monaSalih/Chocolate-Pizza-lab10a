@@ -8,40 +8,61 @@ body{
 .logHe {
     display: inline-block;
 }
-.iconLi{
+#font1{
+    font-family: Bookman, URW Bookman L, serif;
+}
+.logHe .parConter{
     display: inline-block;
 }
+.iconLi {
+    display: inline-block;
+    float: right;
+    
+}
 
-ul{
-    display: flex;
+ul li{
+    /* display: flex; */
     list-style: none;
+    display: inline;
+    /* margin-left: 5%; */
     /* padding-left: 15px; */
+    /* margin-right: -278px; */
 }
 /* nav ul{
     
 } */
 
-li{
+/* li{
     padding-left: 18px;
     /* right: 0px; */
-    display:grid;
-grid-template-columns:auto 25%;
-}
+    /* display:grid; */
+/* grid-template-columns:auto 25%; }*/
+
 
 hr{
-    height: 12px;
-    border: 0;
-    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+    height: 5px;
+    background-image: url('../image/hr-img\ \(1\).png');
 }
 article{
     display: flex;
 }
 
-.divArti2{
-  margin-right:  0px;
-    display: inline;
-    justify-content: right;
+.divArti2 {
+  /* margin-right:  0px;
+       /* justify-content: right; */
+       display: flex;
+       width: 40px;
+       align-items: center;
+       position: absolute;
+       top: 22%;
+       left: 69%;
+       /* float: right; */
+/* display: inline-block;  */
 }
+
+/* .inside .inside2{
+    display: inline-block;
+} */
 
 #chPi{
     width: 100%;
@@ -49,6 +70,8 @@ article{
 .checkBox{
     background-image: url('../image/list-bg.png');
     opacity: 1;
+    margin-bottom: 44px;
+    box-shadow: -3px 16px 24px -15px #3C415C;
     
     /* opacity: 0,77px; */
     
@@ -57,8 +80,12 @@ article{
     display:flex;
    
 }
+.list1{
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
 .list2{
     padding-left: 199px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
 }
 .blogInf{
     width:75%;
@@ -66,19 +93,38 @@ article{
 .blogPic{
     display: flex;
 }
+#bottom{
+    position: absolute;
+      
+}
+.innerDiv .innerDiv2{
+  display: inline-block;
+  justify-content: space-between;
+  margin: 3px;
+  
+}
 .innerDiv{
-   float: left;
+    margin-top: 5%;
+}
+.innerDiv2{
+    padding: 14px;
+    margin-top: 2px;
 }
 button{
-    height: 70px;
-    width: 200px;
+    height: 30px;
+    width: 500px;
     margin:66px;
     margin-right: 1px;
+    background-color: #D83A56;
+    color: aliceblue;
+    font-family: Courier New, monospace;
 }
+
 footer{
-    margin-left: 35%;
-    margin-right: 35%;
+    margin-left: 25%;
+    margin-right: 25%;
 }
+/*note: to add picture inside hr use opcity for picture and put abbove lin */
 .footClas{
    text-align: center;
     /* margin-left: 25%;
