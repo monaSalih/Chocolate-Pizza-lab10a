@@ -4,19 +4,29 @@
 body{
     margin-left: 25%;
     margin-right: 25%;
+    
 }
 .logHe {
     display: inline-block;
 }
 #font1{
-    font-family: Bookman, URW Bookman L, serif;
+    font-family: 'Yellowtail', cursive;
+    font-size: 24px;
+    font-weight: bold;
+    position: absolute;
+    top: -10px;
+}
+#color1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #a3a375;
+    font-size: 8px;
 }
 .logHe .parConter{
     display: inline-block;
 }
 .iconLi {
     display: inline-block;
-    float: right;
+    float:right;
     
 }
 
@@ -46,7 +56,14 @@ hr{
 article{
     display: flex;
 }
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
+}
+#color2{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #a3a375;
+}
 .divArti2 {
   /* margin-right:  0px;
        /* justify-content: right; */
@@ -54,8 +71,11 @@ article{
        width: 40px;
        align-items: center;
        position: absolute;
-       top: 22%;
+       top: 17%;
        left: 69%;
+       font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #a3a375;
+    font-size: 8px;
        /* float: right; */
 /* display: inline-block;  */
 }
@@ -67,11 +87,17 @@ article{
 #chPi{
     width: 100%;
 }
+.fontP{
+font-family: Georgia, 'Times New Roman', Times, serif;
+color: #a3a375;
+
+
+}
 .checkBox{
     background-image: url('../image/list-bg.png');
     opacity: 1;
     margin-bottom: 44px;
-    box-shadow: -3px 16px 24px -15px #3C415C;
+    box-shadow: -3px 9px 24px -15px #3C415C;
     
     /* opacity: 0,77px; */
     
@@ -121,6 +147,8 @@ button{
 }
 
 footer{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #a3a375;
     margin-left: 25%;
     margin-right: 25%;
 }
