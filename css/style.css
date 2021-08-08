@@ -54,7 +54,8 @@ hr{
     background-image: url('../image/hr-img\ \(1\).png');
 }
 article{
-    display: flex;
+    display:block;
+
 }
 h1{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -67,17 +68,17 @@ h1{
 .divArti2 {
   /* margin-right:  0px;
        /* justify-content: right; */
-       display: flex;
+       /* display: flex; */
        width: 40px;
        align-items: center;
        position: absolute;
        top: 17%;
        left: 69%;
        font-family:Georgia, 'Times New Roman', Times, serif;
-    color: #a3a375;
-    font-size: 8px;
-       /* float: right; */
-/* display: inline-block;  */
+        color: #a3a375;
+        font-size: 8px;
+        /* float: right; */
+        /* display: inline-block;  */
 }
 
 /* .inside .inside2{
@@ -103,34 +104,31 @@ color: #a3a375;
     
 }
 .mainDiv{
-    display:flex;
+    display:inline-block;
+    
    
 }
-.list1{
-    font-family: Comic Sans MS, Comic Sans, cursive;
-}
+.list1,
 .list2{
-    padding-left: 199px;
     font-family: Comic Sans MS, Comic Sans, cursive;
+    display: inline-block;
 }
+
 .blogInf{
     width:75%;
+    position: relative;
 }
 .blogPic{
-    display: flex;
+    display: inline-block;
 }
 #bottom{
     position: absolute;
       
 }
-.innerDiv .innerDiv2{
-  display: inline-block;
-  justify-content: space-between;
-  margin: 3px;
-  
-}
+
 .innerDiv{
-    margin-top: 5%;
+    width: 50%;
+    display: inline-block;
 }
 .innerDiv2{
     padding: 14px;
@@ -138,17 +136,20 @@ color: #a3a375;
 }
 button{
     height: 30px;
-    width: 500px;
-    margin:66px;
-    margin-right: 1px;
+    width: 150px;
     background-color: #D83A56;
     color: aliceblue;
     font-family: Courier New, monospace;
+    float: right;
+    position: absolute;
+    top: 100px;
+    right: 10px;
 }
 
 footer{
     font-family:Georgia, 'Times New Roman', Times, serif;
     color: #a3a375;
+    margin-top: 20px;
     margin-left: 25%;
     margin-right: 25%;
 }
@@ -158,7 +159,7 @@ footer{
     /* margin-left: 25%;
     margin-right: 25%; */
 }
-.footClas img{
+/* .footClas img{
     margin-left: auto;
     margin-right: auto;
-}
+} */
